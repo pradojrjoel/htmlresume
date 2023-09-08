@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2 - More HTML Elements and Forms</title>
+</head>
+<body>
+
+    <div>
+        <h1>Images</h1>
+        <img src="https://media.istockphoto.com/id/1430393066/photo/creative-startup-and-team-webinar-on-laptop-for-professional-internet-communication-in-office.jpg?s=612x612&w=0&k=20&c=mCwrbA9A1u4ezzncWOFOBx0NV3sykfx84ZRM_HdkjGw=" width="300" alt="web developer">
+        <img src="https://media.istockphoto.com/id/1371339413/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.jpg?s=612x612&w=0&k=20&c=ysEsVw3q2axYt3oVZAuQjtHRlN3lY-U_e0ikK5yKIXQ=" width="300" alt="web design">
+        <img src="https://media.istockphoto.com/id/1495410160/photo/laptop-icons-digital-overlay-and-hands-for-networking-app-email-communication-and-time.jpg?s=612x612&w=0&k=20&c=UHQmbnBy42W-hgCos-8GGhz8v9MdMo6HiCqsiLQ9BvA=" width="300" alt="code">
+    </div>   
+    
+    <div>
+    <h1>Weekly Schedule</h1>
+    <table>
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <th>Morning</th>
+            <td>Errands</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+            <td>Excercise</td>
+            <td>Excercise</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+            <td>Errands</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+            <td>Relax</td>
+            <td>Relax</td>
+        </tr>
+        <tr>
+            <th>Evening</th>
+            <td>Work</td>
+            <td>Work</td>
+            <td>Work</td>
+            <td>Work</td>
+            <td>Work</td>
+            <td>Dine Out</td>
+            <td>Sleep</td>
+        </tr>
+    </table>
+    </div>
+
+    <div>
+        <h1>Feedback Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="juandelacruz@gmail.com" required><br><br>
+
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+
+        <p>How did you find out about our product/service?</p>
+        <input type="radio" id="socialMedia" name="source" value="socialMedia">
+        <label for="socialMedia">Social Media</label><br>
+
+        <input type="radio" id="wordOfMouth" name="source" value="wordOfMouth">
+        <label for="wordOfMouth">Word of Mouth</label><br>
+
+        <input type="radio" id="advertisement" name="source" value="advertisement">
+        <label for="advertisement">Advertisement</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
